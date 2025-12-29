@@ -14,6 +14,10 @@ config/name="hex-strategy"
 run/main_scene="uid://cmnxwiwytjh3g"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 
+[display]
+
+window/stretch/aspect="ignore"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
