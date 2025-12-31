@@ -5,7 +5,7 @@ class_name Scheduler
 var current_time := 0.0
 var queue: Array[ScheduledEvent] = []
 
-signal unit_turn_started(unit)
+signal unit_turn_started
 
 func schedule(event: ScheduledEvent):
 	queue.append(event)
