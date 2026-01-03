@@ -1,0 +1,40 @@
+[
+	{
+		"id": 0,
+		"name": "walk",
+		"base_cost": [0, 0, 0],
+		"phases": [ 
+			{
+				"order": 0,
+				"target": "tile",
+				"range": 1,
+				"type": "movement",
+				"speed": 1.0,
+				"improve": "stamina"
+			}
+		]
+	},
+	{
+		"id": 1,
+		"name": "stab",
+		"base_cost": [0, 0, 1],
+		"phases": [ 
+			{
+				"order": 0,
+				"target": "none",
+				"range": -1,
+				"type": "cast",
+				"speed": 1.0,
+				"improve": "stamina"
+			},
+			{
+				"order": 1,
+				"target": "tile",
+				"range": 1,
+				"type": "cast",
+				"speed": 1.0,
+				"improve": "stamina"
+			}
+		]
+	}
+]

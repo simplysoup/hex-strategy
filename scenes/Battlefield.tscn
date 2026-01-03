@@ -47,6 +47,7 @@ rendering_quadrant_size = 1
 [node name="TileMarkers" type="Node" parent="."]
 
 [node name="Marker" type="Sprite2D" parent="TileMarkers"]
+visible = false
 modulate = Color(1, 1, 1, 0.2509804)
 position = Vector2(559, 325)
 texture = ExtResource("3_ychty")

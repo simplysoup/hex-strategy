@@ -1,7 +1,5 @@
 res://scenes/Battlefield.tscn
-res://scripts/systems/events/scheduler.gd
-res://scripts/unit.gd
-res://scripts/systems/skill.gd
-res://scripts/systems/action.gd
+res://data/units.json
+res://data/skills.json
+res://scenes/MainMenu.tscn
 res://scripts/systems/utils/data_utils.gd
-res://scripts/systems/events/scheduled_event.gd

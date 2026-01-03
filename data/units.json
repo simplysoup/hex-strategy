@@ -1,0 +1,13 @@
+[
+	{
+		"id": "0",
+		"name": "Player",
+		"allegiance": "Player",
+		"max_hp": 5,
+		"max_mp": 5,
+		"max_sp": 5,
+		"reaction_time": 0.1,
+		"movement_speed": 1.0,
+		"skills": [0, 1]
+	}
+]
